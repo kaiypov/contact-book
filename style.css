@@ -1,0 +1,93 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 958px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial;
+}
+
+.container:first-child {
+    text-align: center;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+.contacts {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: aqua;
+    border-radius: 4px;
+    text-align: right;
+}
+
+.field {
+    margin-bottom: 1rem;
+}
+
+.field:last-child {
+    margin-bottom: 0;
+}
+
+.field > input {
+    border: 0;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.field:last-child > button {
+    padding: 10px;
+    color: #fff;
+    background-color: grey;
+    border: 0;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.field:last-child > button:hover {
+    background-color: aqua;
+}
+
+.field:last-child {
+    text-align: center;
+}
+
+/* !modal */
+
+.main-modal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.inner-modal {
+    width: 500px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+.close {
+    text-align: end;
+}
